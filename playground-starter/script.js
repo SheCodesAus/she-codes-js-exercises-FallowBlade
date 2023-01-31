@@ -1,3 +1,9 @@
+function showName() {
+    let username = document.getElementById("name-text").value;
+    console.log(`Hi, ${username}`);
+}
+
+// EXERCISES//
 // let username = "Isabelle Lange";
 // console.log(`Hello, ${username}`);
 
@@ -21,11 +27,11 @@
 
 // add();
 
-function add(x, y) {
-    let result = x + y;
-    console.log(result);
-}
+// function add(x, y) {
+//     let result = x + y;
+//     console.log(result);
+// }
 
-add(5, 3);
-add(10, 3)
-add(100, 200)
+// add(5, 3);
+// add(10, 3);
+// add(100, 200);
