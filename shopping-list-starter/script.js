@@ -13,6 +13,7 @@ function updateItems() {
 }
 
 updateItems();
+// We created the function above, now we are CALLING it?
 
 function addItem() {
     // Grab
@@ -22,11 +23,12 @@ function addItem() {
 }
 
 function clearItem() {
+    // delete
     let listElement = document.getElementById("shopping-list-items");
     listElement.innerHTML = "";
 }
 
 
-// function updateItems() { }
+
 
 

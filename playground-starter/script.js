@@ -39,6 +39,23 @@ pets.forEach((pet) => {
 
 });
 
+
+
+// CONDITIONALS //
+
+let child = "Jameson"
+if (child === "Wolfgang") {
+    console.log("Wolfgang is a child");
+} else if (child === "Koko") {
+    console.log("the child is not Wolfgang, they're 2nd best");
+} else {
+    console.log("The child is not Wolfgang or Koko, I guess they're OK")
+}
+
+
+
+// the === signs means EXACT match, use 3 equals when comparing things
+
 // EXERCISES//
 // let username = "Isabelle Lange";
 // console.log(`Hello, ${username}`);

@@ -17,6 +17,6 @@ function add(step) {
 function minus(step) {
     let numberElement = document.getElementById("number");
     let number = numberElement.innerText;
-    number = parseInt(number) + step;
+    number = parseInt(number) - step;
     numberElement.innerText = number;
 }
