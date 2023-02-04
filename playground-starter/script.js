@@ -3,6 +3,42 @@ function showName() {
     console.log(`Hi, ${username}`);
 }
 
+
+// This is a FOR LOOP which allows you to repeat a code 10 times ///
+
+for (let count = 0; count < 10; count++) {
+    console.log(count);
+
+}
+// FOR LOOP
+
+// FOR LOOP ARRAY = LIST OF ITEMS //
+
+let pets = ["dog", "bird", "cat", "mouse"]
+console.log(pets);
+pets.push("hamster");
+// This prints out list of all above + the hamster
+console.log(pets);
+// This prints out a list of all the above, EXCEPT the Hamster
+console.log(pets[0]);
+console.log(pets[3]);
+
+
+// FOR LIST OF PETS
+for (let index = 0; index < pets.length; index++) {
+    console.log(pets[index]);
+}
+// This creates a list where each list item is added underenath the next, e.g.:
+// dog
+// bird
+// cat
+// mouse
+
+pets.forEach((pet) => {
+    console.log(pet);
+
+});
+
 // EXERCISES//
 // let username = "Isabelle Lange";
 // console.log(`Hello, ${username}`);
